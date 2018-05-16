@@ -1,0 +1,9 @@
+---
+# Publisher synchronization nginx source package and extend packages to the installation remote machine
+# 2018-05-16 11:15:47 by liubaobao at WHKJ company
+
+
+- name: Unarchive Wget Sorce Code to Remote Machice
+  copy: src={{ WGET }}.tgz dest=/tmp/{{ WGET }}.tgz
+  ignore_errors: True
+  tags: syncwget

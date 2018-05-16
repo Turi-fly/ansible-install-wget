@@ -1,0 +1,4 @@
+---
+# tasks file for wget
+- include: sync_wget_source_code.yml
+- include: install_nginx.yml

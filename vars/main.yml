@@ -1,0 +1,3 @@
+---
+# vars file for wget 
+WGET: wget-1.19.2
